@@ -1,5 +1,5 @@
 {
-  "name": "ChainList",
+  "name": "web3-pet-market",
   "version": "1.0.0",
   "description": "",
   "main": "truffle.js",
@@ -10,13 +10,12 @@
     "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "ChainSkills",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.3.0"
   },
   "dependencies": {
-    "dotenv": "^6.0.0",
-    "truffle-hdwallet-provider": "0.0.6"
+    "@truffle/contract": "^4.6.7"
   }
 }
